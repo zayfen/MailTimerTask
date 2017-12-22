@@ -1,0 +1,9 @@
+{
+  "fromEmail": "845835744@qq.com",
+  "fromEmailPasswd": "${YOUR EMAIL PASSWORD}",
+  "toReceivers": ["zhangyunfeng0101@gmail.com", "845835744@qq.com"],
+  "ccReceivers": ["zhangyunfeng0101@gmail.com"],
+  "fromUserName": "张云峰",
+  "smtpHost": "smtp.qq.com",
+  "smtpPort": 465
+}

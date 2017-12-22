@@ -42,12 +42,12 @@ public class Main {
         boolean ret = false;
         Date now = new Date();
 
-        Calendar endDate = new GregorianCalendar();
-        endDate.set(Calendar.HOUR_OF_DAY, START_HOUR_OF_DAY);
-        endDate.set(Calendar.MINUTE, 0);
-        endDate.set(Calendar.SECOND, 0);
-        endDate.set(Calendar.MILLISECOND, 0);
-        Date dtStartClock = endDate.getTime();
+        Calendar startDate = new GregorianCalendar();
+        startDate.set(Calendar.HOUR_OF_DAY, START_HOUR_OF_DAY);
+        startDate.set(Calendar.MINUTE, 0);
+        startDate.set(Calendar.SECOND, 0);
+        startDate.set(Calendar.MILLISECOND, 0);
+        Date dtStartClock = startDate.getTime();
         ret = now.before(dtStartClock);
         return ret;
     }
